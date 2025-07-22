@@ -21,7 +21,7 @@ MacBook Air 第２世代（Apple Silicon M2）にて動作確認済み。
 ターミナル上で
 
 % cd flocking_vx %xは任意のバージョン
-% mkdir build
+% mkdir build %buildが存在しないときは行ってください
 % cd build
 % cmake .. \
 -DCMAKE_C_COMPILER=clang \
